@@ -5,6 +5,4 @@ compiler:
 os: osx
 
 script:
-  - brew update
-  - brew install python3
-  - source scripts/vars && python3 scripts/build.py
+  - source scripts/vars && python scripts/build.py

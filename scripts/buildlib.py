@@ -1,6 +1,8 @@
 # Copyright (c) Sydney Erickson 2017
 # This script contains the base build functions
 
+from __future__ import print_function
+
 import os
 import subprocess
 
