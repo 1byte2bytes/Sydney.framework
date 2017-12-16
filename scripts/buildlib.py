@@ -17,7 +17,7 @@ def execute_shell(command):
 	if retval != 0:
 		exit(-1)
 
-def build_configure(archive_name, configure_extra_args, custom_prefix=None):
+def build_configure(archive_name, configure_extra_args, custom_prefix=None, presetup_command=None):
 	os.chdir(buildsettings.buildbase + "/pkg-src")
 	project_name = archive_name.rsplit(".", 2)[0]
 	if os.path.isdir(project_name) == True:
@@ -25,6 +25,10 @@ def build_configure(archive_name, configure_extra_args, custom_prefix=None):
 
 	execute_shell("tar -xvf " + archive_name)
 	os.chdir(project_name)
+
+	if presetup_command != None:
+		execute_shell(presetup_command)
+		
 	execute_shell("./configure --prefix={} {}".format(buildsettings.builddir, configure_extra_args))
 	execute_shell("make -j$(sysctl -n hw.ncpu)")
 	execute_shell("make install")
