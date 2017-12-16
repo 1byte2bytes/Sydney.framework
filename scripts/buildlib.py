@@ -24,5 +24,19 @@ def build_configure(archive_name, configure_extra_args, custom_prefix=None):
 	execute_shell("tar -xvf " + archive_name)
 	os.chdir(project_name)
 	execute_shell("./configure --prefix={} {}".format(buildsettings.builddir, configure_extra_args))
-	execute_shell("make")
+	execute_shell("make -j$(sysctl -n hw.ncpu)")
+	execute_shell("make install")
+
+def build_configure(archive_name, configure_extra_args, custom_prefix=None):
+	os.chdir(buildsettings.buildbase + "/pkg-src")
+	project_name = archive_name.rsplit(".", 2)[0]
+	if os.path.isdir(project_name) == True:
+		return
+
+	execute_shell("tar -xvf " + archive_name)
+	os.chdir(project_name)
+	execute_shell("mkdir build")
+	os.chdir("build")
+	execute_shell("cmake -G \"Unix Makefiles\" -DCMAKE_INSTALL_PREFIX:PATH=/{} ../".format(buildsettings.builddir))
+	execute_shell("make  -j$(sysctl -n hw.ncpu)")
 	execute_shell("make install")
