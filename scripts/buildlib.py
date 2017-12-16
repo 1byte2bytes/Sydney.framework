@@ -27,7 +27,7 @@ def build_configure(archive_name, configure_extra_args, custom_prefix=None):
 	execute_shell("make -j$(sysctl -n hw.ncpu)")
 	execute_shell("make install")
 
-def build_configure(archive_name, configure_extra_args, custom_prefix=None):
+def build_cmake(archive_name, configure_extra_args, custom_prefix=None):
 	os.chdir(buildsettings.buildbase + "/pkg-src")
 	project_name = archive_name.rsplit(".", 2)[0]
 	if os.path.isdir(project_name) == True:
