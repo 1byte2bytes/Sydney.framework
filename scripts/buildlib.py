@@ -43,6 +43,6 @@ def build_cmake(archive_name, configure_extra_args, custom_prefix=None):
 	os.chdir(project_name)
 	execute_shell("mkdir build")
 	os.chdir("build")
-	execute_shell("cmake -G \"Unix Makefiles\" -DCMAKE_INSTALL_PREFIX:PATH=/{} ../".format(buildsettings.builddir))
+	execute_shell("cmake -G \"Unix Makefiles\" -DCMAKE_INSTALL_PREFIX:PATH={} {} ../".format(buildsettings.builddir, configure_extra_args))
 	execute_shell("make  -j$(sysctl -n hw.ncpu)")
 	execute_shell("make install")

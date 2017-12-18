@@ -4,4 +4,4 @@ import buildsettings
 
 import build_cmake
 
-buildlib.build_cmake("llvm-5.0.0.src.tar.bz2", "")
+buildlib.build_cmake("llvm-5.0.0.src.tar.bz2", "-DCMAKE_BUILD_TYPE=Release")
