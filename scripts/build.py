@@ -18,4 +18,5 @@ import build_mono
 import build_rustc
 import build_ninja
 import build_swift
+import build_ldc
 import build_llvm
