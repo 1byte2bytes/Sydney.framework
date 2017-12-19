@@ -15,4 +15,5 @@ import build_gawk
 import build_yasm
 import build_nasm
 import build_mono
+import build_rustc
 import build_llvm
