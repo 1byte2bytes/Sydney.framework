@@ -2,4 +2,4 @@
 import buildlib
 import buildsettings
 
-buildlib.build_configure("swift-swift-4.0.3-RELEASE.tar.gz", "")
+buildlib.build_cmake("swift-swift-4.0.3-RELEASE.tar.gz", "-DCMAKE_BUILD_TYPE=Release")
