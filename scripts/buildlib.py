@@ -30,7 +30,7 @@ def build_configure(archive_name, configure_extra_args, custom_prefix=None, pres
 		execute_shell(presetup_command)
 		
 	execute_shell("./configure --prefix={} {}".format(buildsettings.builddir, configure_extra_args))
-	execute_shell("make -j$(_NPROCESSORS_ONLN)")
+	execute_shell("make -j$(getconf _NPROCESSORS_ONLN)")
 	execute_shell("make install")
 
 def build_cmake(archive_name, configure_extra_args, custom_prefix=None):
@@ -44,5 +44,5 @@ def build_cmake(archive_name, configure_extra_args, custom_prefix=None):
 	execute_shell("mkdir build")
 	os.chdir("build")
 	execute_shell("cmake -G \"Unix Makefiles\" -DCMAKE_INSTALL_PREFIX:PATH={} {} ../".format(buildsettings.builddir, configure_extra_args))
-	execute_shell("make  -j$(_NPROCESSORS_ONLN)")
+	execute_shell("make  -j$(getconf _NPROCESSORS_ONLN)")
 	execute_shell("make install")
