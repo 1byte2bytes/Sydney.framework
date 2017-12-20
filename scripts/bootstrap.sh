@@ -1,0 +1,16 @@
+cd pkg-src
+wget https://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
+wget https://ftp.gnu.org/gnu/automake/automake-1.15.1.tar.gz
+wget https://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.gz
+wget https://www.samba.org/ftp/ccache/ccache-3.3.4.tar.bz2
+wget https://cmake.org/files/v3.10/cmake-3.10.1.tar.gz
+wget https://ftp.gnu.org/gnu/gawk/gawk-4.2.0.tar.gz
+wget https://github.com/git/git/archive/v2.15.1.tar.gz
+wget https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.gz
+# LLVM
+wget https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz
+wget https://www.mercurial-scm.org/release/mercurial-4.4.2.tar.gz
+wget https://download.mono-project.com/sources/mono/mono-5.11.0.25.tar.bz2
+wget http://www.nasm.us/pub/nasm/releasebuilds/2.13.02/nasm-2.13.02.tar.gz
+wget https://static.rust-lang.org/dist/rustc-1.22.1-src.tar.gz
+wget http://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz
