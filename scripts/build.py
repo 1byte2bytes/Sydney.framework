@@ -14,9 +14,9 @@ import build_ccache
 import build_gawk
 import build_yasm
 import build_nasm
-import build_mono
+#import build_mono
 import build_rustc
 import build_ninja
-import build_swift
-import build_ldc
+#import build_swift
+#import build_ldc #this needs to be replaced with dmd
 import build_llvm
