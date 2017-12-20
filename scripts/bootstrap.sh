@@ -1,8 +1,9 @@
 cd pkg-src
 wget -c https://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
 wget -c https://ftp.gnu.org/gnu/automake/automake-1.15.1.tar.gz
-wget -c https://codeload.github.com/1byte2bytes/bison/tar.gz/3.0.5-PATCH -O bison-3.0.5-PATCH.tar.gz
+wget -c https://sydneyerickson.me/stuff/bison-3.0.4.tar.gz
 wget -c https://www.samba.org/ftp/ccache/ccache-3.3.4.tar.bz2
+wget -c https://ftp.gnu.org/gnu/make/make-4.2.1.tar.gz
 wget -c https://cmake.org/files/v3.10/cmake-3.10.1.tar.gz
 wget -c https://ftp.gnu.org/gnu/gawk/gawk-4.2.0.tar.gz
 wget -c https://github.com/git/git/archive/v2.15.1.tar.gz -O git-2.15.1.tar.gz
