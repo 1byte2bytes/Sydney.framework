@@ -8,3 +8,19 @@ source scripts/vars
 ./scripts/bootstrap.sh
 python3 scripts/build.py
 ```
+
+## Supported langauges so far:
+
+```
+x86(_64) Assembly, C, C++, Objective-C, Objective-C++, D, Rust
+
+OpenMP, OpenCL, CUDA
+```
+
+## Possible upcoming languages:
+
+**This list is not a guarantee, it's mostly just stuff I see configure commonly ask for and can be slotted into LLVM.**
+
+```
+FORTRAN, Java, Haskell, Ruby, Java
+```
