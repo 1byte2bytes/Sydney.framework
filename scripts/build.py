@@ -1,6 +1,3 @@
-#TODO: Fix Bison build
-#TODO: Fix Mercurial build
-
 import build_autoconf
 import build_automake
 import build_bison
@@ -14,7 +11,7 @@ import build_ccache
 import build_gawk
 import build_yasm
 import build_nasm
-#import build_mono
+import build_mono
 import build_rustc
 import build_ninja
 import build_dmd
