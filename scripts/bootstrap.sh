@@ -16,3 +16,4 @@ wget -c http://www.nasm.us/pub/nasm/releasebuilds/2.13.02/nasm-2.13.02.tar.gz
 wget -c https://static.rust-lang.org/dist/rustc-1.22.1-src.tar.gz
 wget -c http://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz
 wget -c https://codeload.github.com/dlang/dmd/tar.gz/v2.077.1 -O dmd-2.077.1.tar.gz
+wget -c https://codeload.github.com/ninja-build/ninja/tar.gz/v1.8.2 -O ninja-1.8.2.tar.gz
