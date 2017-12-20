@@ -6,9 +6,6 @@ import buildsettings
 
 os.chdir(buildsettings.buildbase + "/pkg-src")
 
-if os.path.isdir("mercurial-4.4.2") == True:
-	return
-
 buildlib.execute_shell("tar -xvf mercurial-4.4.2.tar.gz")
 os.chdir("mercurial-4.4.2")	
 buildlib.execute_shell("make local")
