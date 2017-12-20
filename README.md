@@ -22,5 +22,5 @@ OpenMP, OpenCL, CUDA
 **This list is not a guarantee, it's mostly just stuff I see configure commonly ask for and can be slotted into LLVM.**
 
 ```
-FORTRAN, Java, Haskell, Ruby, Java
+FORTRAN (Flang?), Java, Swift, C#
 ```
