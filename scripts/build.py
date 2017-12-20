@@ -3,13 +3,13 @@
 
 import build_autoconf
 import build_automake
-#import build_bison
+import build_bison
 import build_libtool
 import build_m4
 import build_make
 import build_cmake
 import build_git
-#import build_mercurial
+import build_mercurial
 import build_ccache
 import build_gawk
 import build_yasm
