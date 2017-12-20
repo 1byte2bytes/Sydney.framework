@@ -2,4 +2,4 @@
 import buildlib
 import buildsettings
 
-buildlib.build_configure("mono-5.11.0.25.tar.bz2", "")
+buildlib.build_configure("mono-5.4.1.6.tar.bz2", "")
