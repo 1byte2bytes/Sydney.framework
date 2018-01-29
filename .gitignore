@@ -1,5 +1,5 @@
 pkg-src/**
-!pkg-src/*.tar.*
+pkg-src/*.tar.*
 
 scripts/__pycache__
 **/*.pyc
