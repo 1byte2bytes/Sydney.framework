@@ -1,7 +1,7 @@
 cd pkg-src
 wget -c https://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
 wget -c https://ftp.gnu.org/gnu/automake/automake-1.15.1.tar.gz
-wget -c https://sydneyerickson.me/stuff/bison-3.0.4.tar.gz
+wget -c --no-check-certificate https://sydneyerickson.me/stuff/bison-3.0.4.tar.gz
 wget -c https://www.samba.org/ftp/ccache/ccache-3.3.6.tar.gz
 wget -c https://ftp.gnu.org/gnu/make/make-4.2.1.tar.gz
 wget -c https://cmake.org/files/v3.10/cmake-3.10.2.tar.gz
