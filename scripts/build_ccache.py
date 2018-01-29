@@ -2,4 +2,4 @@
 import buildlib
 import buildsettings
 
-buildlib.build_configure("ccache-3.3.4.tar.bz2", "")
+buildlib.build_configure("ccache-3.3.6.tar.gz", "")

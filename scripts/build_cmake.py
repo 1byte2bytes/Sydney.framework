@@ -2,4 +2,4 @@
 import buildlib
 import buildsettings
 
-buildlib.build_configure("cmake-3.10.1.tar.gz", "")
+buildlib.build_configure("cmake-3.10.2.tar.gz", "")

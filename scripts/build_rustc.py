@@ -2,4 +2,4 @@
 import buildlib
 import buildsettings
 
-buildlib.build_configure("rustc-1.22.1-src.tar.gz", "")
+buildlib.build_configure("rustc-1.23.0-src.tar.gz", "")

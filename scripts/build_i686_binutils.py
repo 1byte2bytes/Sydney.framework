@@ -4,4 +4,4 @@ import buildsettings
 
 import build_autoconf
 
-buildlib.build_configure("binutils-2.29.1.tar.gz", "--with-sysroot --disable-nls --disable-werror --target=i686-elf")
+buildlib.build_configure("binutils-2.30.tar.gz", "--with-sysroot --disable-nls --disable-werror --target=i686-elf")
