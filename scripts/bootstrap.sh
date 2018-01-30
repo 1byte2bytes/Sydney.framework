@@ -14,7 +14,7 @@ wget -c https://download.mono-project.com/sources/mono/mono-5.4.1.7.tar.bz2
 wget -c http://www.nasm.us/pub/nasm/releasebuilds/2.13.02/nasm-2.13.02.tar.gz
 wget -c https://static.rust-lang.org/dist/rustc-1.23.0-src.tar.gz
 wget -c http://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz
-wget -c https://codeload.github.com/dlang/dmd/tar.gz/v2.078.1 -O dmd-2.077.1.tar.gz
+wget -c https://codeload.github.com/dlang/dmd/tar.gz/v2.078.1 -O dmd-2.078.1.tar.gz
 wget -c https://codeload.github.com/ninja-build/ninja/tar.gz/v1.8.2 -O ninja-1.8.2.tar.gz
 
 wget -c https://ftp.gnu.org/gnu/gmp/gmp-6.1.2.tar.bz2
