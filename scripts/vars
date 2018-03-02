@@ -1,1 +1,1 @@
-export PATH=$HOME/SydChain/bin:$HOME/SydChain/sbin:$PATH
+export PATH=$HOME/Sydney.framework/bin:$HOME/Sydney.framework/sbin:$PATH

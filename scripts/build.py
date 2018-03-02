@@ -1,3 +1,20 @@
+import build_bash
+import build_coreutils
+import build_cpio
+import build_diffutils
+import build_findutils
+import build_grep
+#import build_groff
+import build_gzip
+import build_inetutils
+#import build_plotutils
+import build_readline
+import build_screen
+#import build_sysutils
+import build_tar
+import build_texinfo
+import build_time
+
 import build_autoconf
 import build_automake
 import build_bison

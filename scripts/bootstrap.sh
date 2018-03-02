@@ -1,4 +1,22 @@
+set -e
+
 cd pkg-src
+wget -c https://ftp.gnu.org/gnu/bash/bash-4.4.18.tar.gz
+wget -c https://ftp.gnu.org/gnu/coreutils/coreutils-8.29.tar.xz
+wget -c https://ftp.gnu.org/gnu/cpio/cpio-2.12.tar.gz
+wget -c https://ftp.gnu.org/gnu/diffutils/diffutils-3.6.tar.xz
+wget -c https://ftp.gnu.org/gnu/findutils/findutils-4.6.0.tar.gz
+wget -c https://ftp.gnu.org/gnu/grep/grep-3.1.tar.xz
+wget -c https://ftp.gnu.org/gnu/groff/groff-1.22.3.tar.gz
+wget -c https://ftp.gnu.org/gnu/gzip/gzip-1.9.tar.gz
+wget -c https://ftp.gnu.org/gnu/inetutils/inetutils-1.9.4.tar.gz
+wget -c https://ftp.gnu.org/gnu/plotutils/plotutils-2.6.tar.gz
+wget -c https://ftp.gnu.org/gnu/readline/readline-7.0.tar.gz
+wget -c https://ftp.gnu.org/gnu/screen/screen-4.6.2.tar.gz
+wget -c https://ftp.gnu.org/gnu/tar/tar-1.30.tar.xz
+wget -c https://ftp.gnu.org/gnu/texinfo/texinfo-6.5.tar.gz
+wget -c https://ftp.gnu.org/gnu/time/time-1.8.tar.gz
+
 wget -c https://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
 wget -c https://ftp.gnu.org/gnu/automake/automake-1.15.1.tar.gz
 wget -c --no-check-certificate https://sydneyerickson.me/stuff/bison-3.0.4.tar.gz
